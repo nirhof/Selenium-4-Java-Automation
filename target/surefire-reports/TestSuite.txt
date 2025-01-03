@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 3, Errors: 0, Skipped: 9, Time elapsed: 174.188 s <<< FAILURE! - in TestSuite
+test04_verifyProductImage(sanity.ShopDemo)  Time elapsed: 3.836 s  <<< FAILURE!
+java.lang.AssertionError: 
+Error Comparing Image File: FindFailed: C:\\Automation\\Projects\\Selenium4Java\\Images\\anchorBraceletImage.png: (156x156) in R[0,0 1280x1024]@S(0)
+  Line 2287, in file Region.java
+
+	at sanity.ShopDemo.test04_verifyProductImage(ShopDemo.java:50)
+
+test05_verifyHighestProductPrice(sanity.ShopDemo)  Time elapsed: 6.326 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at sanity.ShopDemo.test05_verifyHighestProductPrice(ShopDemo.java:59)
+
+test07_verifySearchProductsElementLocation(sanity.ShopDemo)  Time elapsed: 5.51 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	expected [198] but found [217],
+	expected [43] but found [42],
+	expected [198] but found [217],
+	expected [43] but found [42],
+	expected [198] but found [217],
+	expected [43] but found [42],
+	expected [198] but found [217],
+	expected [43] but found [42]
+	at sanity.ShopDemo.test07_verifySearchProductsElementLocation(ShopDemo.java:116)
+
