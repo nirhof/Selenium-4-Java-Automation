@@ -30,8 +30,6 @@ For this project, I used the Java programming language and the TestNG testing fr
 
 ## Tools & Frameworks Utilized
 
-## Tools & Frameworks Utilized
-
 - **TestNG**: Testing framework used for writing and executing tests.
 - **Listeners**: Interface for generating logs and customizing TestNG reports.
 - **Jenkins**: Automation server for test execution.
