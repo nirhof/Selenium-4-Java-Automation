@@ -23,6 +23,7 @@ For this project, I used the Java programming language and the TestNG testing fr
 - External Files Support (Data-Driven Testing): Supports loading testing data from CSV files for dynamic testing approaches.
 - Reporting System: Integrates Allure Reports with screenshots for detailed test result insights.
 - Visual Testing Capabilities: Employed Sikuli to detect UI discrepancies and ensure visual integrity in applications.
+- Retry Mechanism: Adds retry logic for failed tests. The retry mechanism is implemented by using a `RetryAnalyzer` class to automatically re-run failed tests a specified number of times.
 
 ## List of Applications Used
 
